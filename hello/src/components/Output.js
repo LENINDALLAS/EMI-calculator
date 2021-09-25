@@ -5,7 +5,7 @@ function Output(props) {
     const { emi, totalPayable, totalInterest } = props;
 
     const handleCurrency = (no) => {
-        return new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 }).format(no);
+        return new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 7 }).format(no);
     }
 
     return (
