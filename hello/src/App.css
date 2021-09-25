@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+
+  /* justify-content: center; */
+  /* text-align: center; */
+  font-weight: 550;
+}
+
+body {
+  background-color: rgb(248, 242, 231);
+}
+h3 {
+  color: rgba(3, 3, 41, 0.76);
+  margin: 15px;
+  text-align: center;
+}
+
+p {
+  padding: 2px;
+}
+
+input {
+  margin: 15px 5px;
+  /* justify-content: flex-start; */
+  text-align: left;
+  padding: 5px;
+  border: 2px solid rgba(180, 176, 176, 0.3);
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid rgba(180, 176, 176, 1); */
+  margin: 0 40%;
+  text-align: left;
+}
+
+.label__flex {
+  width: 115%;
+}
+
+.outputContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30%;
+}
+
+.output__firstRow {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid rgba(180, 176, 176); */
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.output__secondRow {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid rgba(180, 176, 176); */
+
+  border-radius: 5px;
+  background-color: rgba(203, 217, 243, 0.8);
+  margin-top: 10px;
+}
+
+.rowBox1 {
+  background-color: rgb(250, 216, 154, 0.8);
+  border-radius: 5px;
+  width: 40%;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.rowBox2 {
+  background-color: rgb(214, 240, 230, 0.8);
+  border-radius: 5px;
+  width: 70%;
+  padding: 10px;
+}
+
+.rowBox3 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.subName {
+  font-weight: 100;
+}
+
+button {
+  width: 50%;
+  margin: 10px 30%;
+  padding: 10px 15px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgba(21, 21, 59, 0.8);
+  color: rgb(208, 209, 250);
+  letter-spacing: 1px;
+}
